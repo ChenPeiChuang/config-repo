@@ -1,0 +1,12 @@
+env: dev
+spring:
+  application:
+    name: order
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    username: root
+    password: root
+    url: jdbc:mysql://127.0.0.1:3306/springcloud_sell?useUnicode=true&characterEncoding=UTF-8
+girl:
+  name: lili
+  age: 14
