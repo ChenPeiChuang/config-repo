@@ -5,6 +5,8 @@ spring:
     username: guest
     password: guest
     virtual-host: /
+  jpa:
+    show-sql: true
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
     username: root
