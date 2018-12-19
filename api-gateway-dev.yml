@@ -16,7 +16,8 @@ zuul:
     myProduct:
       path: /myProduct/**
       serviceId: product
-      sensitiveHeaders:
+      #sensitiveHeaders:
+  sensitive-headers:     
     #product: /myProduct/**
   ignored-patterns:
     - /**/product/listForOrder
