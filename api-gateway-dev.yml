@@ -22,5 +22,5 @@ zuul:
       #sensitiveHeaders:
   sensitive-headers:     
     #product: /myProduct/**
-  ignored-patterns:
-    - /**/product/listForOrder
+#   ignored-patterns:
+#     - /**/product/listForOrder
